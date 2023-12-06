@@ -35,7 +35,7 @@ IF ERRORLEVEL 1 (SET in=c & echo %IP% Smacked By Safi)
 ping -t 2 0 10 127.0.0.1 >nul
 color 02
 PING -n 1 %IP% | FIND "TTL="
-IF ERRORLEVEL 1 (SET in=c & echo %IP% Smacked By lilmums) 
+IF ERRORLEVEL 1 (SET in=c & echo %IP% Smacked By Safi) 
 ping -t 2 0 10 127.0.0.1 >nul
 color 03
 PING -n 1 %IP% | FIND "TTL="
